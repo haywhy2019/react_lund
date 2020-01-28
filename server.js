@@ -6,6 +6,7 @@ const app = express();
 const jwt = require("express-jwt");
 const jwksRsa = require("jwks-rsa");
 const path = require('path');
+require('dotenv').config()
 
 
 
@@ -56,7 +57,7 @@ routes(app);
 
 
 //db config
-const db = require('./server/config/keys').mongoURI;
+const db = process.env.MONGO_URI;
 
 
 // connect to mongo

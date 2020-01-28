@@ -1,4 +1,4 @@
-const jwtCheck = require("../config/auth");
+
 
 module.exports = (app) => {
  const contactResource = require("../Controllers/contactController");
