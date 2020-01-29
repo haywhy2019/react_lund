@@ -13,7 +13,9 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cross-env NODE_ENV=production WEBPACK_CONFIG=browser_prod,server_prod webpack --colors"
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod"
+   
   },
   "author": "",
   "license": "ISC",
