@@ -20,7 +20,7 @@ module.exports.createOrder = (req, res) => {
 module.exports.getAll = (req, res) => {
   // check if user is admin 
   Order.find().populate('items')
-  .then(orders => res.json({body: orders}))
+  .then(orders => res.json(orders))
   .catch(err => res.status(400).json({error: err, message: "orders cannot be fetched!"}));
   // else return un authorized status code 
 }
