@@ -1,13 +1,13 @@
 {
   "name": "react_lund",
   "version": "1.0.0",
+  "description": "mern app",
+  "main": "server.js",
   "engines": {
     "node": "12.12.0"
   },
-  "description": "mern app",
-  "main": "server.js",
-  "scripts": {
-    
+ 
+  "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js",
