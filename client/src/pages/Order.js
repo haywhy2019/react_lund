@@ -84,15 +84,6 @@ submitForm = event => {
 
 }
 
-
-
-handleGet = event => {
-  event.preventDefault();
-    axios.get('http://localhost:5000/order')
-    .then(res => console.log(res.data))
-    .catch(err => console.error(err));
-  }
-
 // handleSubmit
 
 handleSubmit = event => {
@@ -302,7 +293,7 @@ render(){
                 </Container>
                
             </Container>
-                <button className={style.button1} onClick={this.handleGet}>get</button>
+      
   
         </div>
     )
