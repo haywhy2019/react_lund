@@ -13,7 +13,7 @@
   import {  Router, Route , Switch} from 'react-router-dom';
   import Home from './pages/Home';
   import About from './pages/About';
-  import Order from './pages/Order';
+  import Order from './pages/Orderpage';
   import Contact from './pages/Contact';
   import CustomeNavBar from './pages/CustomeNavBar'
   import Footer from './pages/Footer'
