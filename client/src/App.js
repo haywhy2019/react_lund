@@ -13,7 +13,7 @@
   import {  Router, Route , Switch} from 'react-router-dom';
   import Home from './pages/Home';
   import About from './pages/About';
-  import Order from './pages/Orderpage';
+  import Orderpage from './pages/Orderpage';
   import Contact from './pages/Contact';
   import CustomeNavBar from './pages/CustomeNavBar'
   import Footer from './pages/Footer'
@@ -39,7 +39,7 @@
           <Switch>
             <Route exact path= "/" component={Home} />
             <Route path="/contact" component={Contact} />
-            <Route path="/order" component={Order} />
+            <Route path="/orderpages" component={Orderpages} />
             <Route path="/about" component={About} />
             <Route path="/response" component={Response} />
             <PrivateRoute path="/profile" component={Profile} />
