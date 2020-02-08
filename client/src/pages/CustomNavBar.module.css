@@ -1,0 +1,15 @@
+.navbar{
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+}
+.navlink:hover{
+color:  rgb(240, 51, 51);
+
+}
+@media (max-width: 768px) {
+    .navbar{
+        font-family: 'Open Sans Condensed';
+        font-weight: bolder;
+        display: block;
+    }   
+}
