@@ -52,7 +52,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}))
 
-const routes = require("../server/routes/routes");
+const routes = require("./server/routes/routes");
 routes(app);
 
 
