@@ -39,7 +39,7 @@
           <Switch>
             <Route exact path= "/" component={Home} />
             <Route path="/contact" component={Contact} />
-            <Route path="/orderpages" component={Orderpages} />
+            <Route path="/orderpage" component={Orderpage} />
             <Route path="/about" component={About} />
             <Route path="/response" component={Response} />
             <PrivateRoute path="/profile" component={Profile} />
